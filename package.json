@@ -37,11 +37,13 @@
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.7",
     "@storybook/addon-links": "^5.3.7",
+    "@storybook/addon-storyshots": "^5.3.9",
     "@storybook/addons": "^5.3.7",
     "@storybook/preset-create-react-app": "^1.5.2",
     "@storybook/react": "^5.3.7",
     "eslint": "^6.8.0",
     "eslint-plugin-react": "^7.18.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.12.0"
   }
 }
