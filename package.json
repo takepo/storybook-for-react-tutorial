@@ -16,7 +16,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "prettier": "prettier --write 'src/**.js'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,6 +41,7 @@
     "@storybook/preset-create-react-app": "^1.5.2",
     "@storybook/react": "^5.3.7",
     "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.18.0"
+    "eslint-plugin-react": "^7.18.0",
+    "prettier": "^1.19.1"
   }
 }
